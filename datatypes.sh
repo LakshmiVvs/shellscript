@@ -9,7 +9,7 @@ mother=$
 brother=$
 sister=$
 
-Family=("father" , "mother" , "brother" , "sister")
+Family=("father" "mother" "brother" "sister")
 
 echo "my family memmers are ::${family[0]}"
 
