@@ -20,4 +20,18 @@
 
 # Environmental variable
 
-export COURSE=$
+# export COURSE=$
+
+------------------------------------------------------------------------------------------
+
+# time variable variable=$(command)
+
+Date=$(date)
+
+STATING_TIME=$(date +%s)
+sleep 5
+END_TIME=$(date +%s)
+
+TOTAL_TIME=$(($STATING_TIME-$END_TIME))
+
+echo "the script exicuted time is : $TOTAL_TIME seconds
