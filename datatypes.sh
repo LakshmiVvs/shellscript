@@ -3,7 +3,10 @@
 # every thing in shell is string
  NUM1=100
  NUM2=200
-TOTAL=$((NUM1+$NUM2))
+
+TOTAL=$(($NUM1+$NUM2))
+echo "total :: ${TOTAL}"
+
 father=$
 mother=$
 brother=$
