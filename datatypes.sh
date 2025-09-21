@@ -7,14 +7,10 @@
 TOTAL=$(($NUM1+$NUM2))
 echo "total :: ${TOTAL}"
 
-father=$
-mother=$
-brother=$
-sister=$
 
 Family=("father" "mother" "brother" "sister")
 
-echo "my family memmers are ::${family[0]}"
+echo "my family memmers are ::${family[@]}"
 
 echo " head of my family :: ${family[0]}"
 
