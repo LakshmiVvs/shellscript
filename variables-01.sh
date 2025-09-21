@@ -28,10 +28,32 @@
 
 #Date=$(date)
 
-STATING_TIME=$(date +%s)
-sleep 5
-END_TIME=$(date +%s)
+# STATING_TIME=$(date +%s)
+# sleep 5
+# END_TIME=$(date +%s)
 
-TOTAL_TIME=$(($STATING_TIME-$END_TIME))
+# TOTAL_TIME=$(($STATING_TIME-$END_TIME))
 
-echo "the script exicuted time is : $TOTAL_TIME seconds"
+# echo "the script exicuted time is : $TOTAL_TIME seconds"
+
+# ----------------------------------------------------------------------------------------------
+
+# Default variable in shell script is 
+
+echo "exicute all variables in shell script is :: $@"
+
+echo "exicute all variables in shell script is :: $*"
+
+echo "script name :: $0"
+
+echo "current directory :: $PWD"
+
+echo "who is running this script :: $USER"
+
+echo "name of directory user : $HOME"
+
+echo "PID of the script : $$"
+
+sleep 50 &
+
+echo "PID of the last command in background : $!"
