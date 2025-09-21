@@ -1,6 +1,8 @@
 #!/bin/bash
-echo:ram "hi suersh"
-echo:suresh "hello ram"
-echo:ram "how r u"
-echo:suresh "good ram how about u"
-echo:ram "iam fine thank u" 
+person1=$1
+person2=$2
+echo "$person1 ::hi $person2"
+echo "$person2 ::hello $person1"
+echo "$person1 ::how r u"
+echo "$person2 ::good ram how about u"
+echo "$person1 ::iam fine thank u" 
