@@ -1,5 +1,5 @@
-#!/bin/bash
-# number < 10
+
+#number < 10
 
 NUMBER=$1
 if [$NUMBER -lt 10] ; then
@@ -7,3 +7,7 @@ if [$NUMBER -lt 10] ; then
 else
     echo "given number is greater $NUMBER"
 fi
+
+
+#num is divisible by 2
+
