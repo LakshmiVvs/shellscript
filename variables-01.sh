@@ -40,20 +40,23 @@
 
 # Default variable in shell script is 
 
-echo "exicute all variables in shell script is :: $@"
+# echo "exicute all variables in shell script is :: $@"
 
-echo "exicute all variables in shell script is :: $*"
+# echo "exicute all variables in shell script is :: $*"
 
-echo "script name :: $0"
+# echo "script name :: $0"
 
-echo "current directory :: $PWD"
+# echo "current directory :: $PWD"
 
-echo "who is running this script :: $USER"
+# echo "who is running this script :: $USER"
 
-echo "name of directory user : $HOME"
+# echo "name of directory user : $HOME"
 
-echo "PID of the script : $$"
+# echo "PID of the script : $$"
 
-sleep 50 &
+# sleep 50 &
 
-echo "PID of the last command in background : $!"
+# echo "PID of the last command in background : $!"
+
+# ------------------------------------------------------------------------------------
+
